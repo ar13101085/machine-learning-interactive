@@ -1,0 +1,7 @@
+version: "3"
+services:
+  machine-learning-interactive:
+    build: .
+    ports:
+      - 4500:80
+    container_name: machine-learning-interactive
